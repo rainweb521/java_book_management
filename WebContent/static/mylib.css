@@ -1,0 +1,148 @@
+#navsidebar{
+   float:left;
+   width:130px;
+   padding-left:10px;
+}
+#mylib_content{width:80%;padding:5px;margin-left:150px;}
+.mylib_content_center{width:98%; text-align:center; margin-top:130px;}
+#nav_mylib{
+   width:117px;
+   float:left;
+   margin-top:10px;
+   border-right:1px solid #ccc;
+   border-top:1px solid #ccc;
+}
+#nav_mylib li{
+	float:left;
+	width:100px;
+	border-bottom:1px dashed #ccc;
+	padding:7px 0 6px 17px;
+	background-image: url(../images/icon_arr.gif);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+}
+#nav_mylib li a{
+    color:#333333;
+}
+#nav_mylib li a:hover{
+	color:#0066cc;
+	font-weight:bold;
+}
+li#nav_mylibhome{
+	font-weight:bold;
+	display:block;
+	background-color: #eee;
+}
+li#nav_mylibhome a{
+	color:#333;
+}
+
+#mylib_content h2{font-size:14px; font-weight:bold;padding:5px 0; line-height:150%; border-bottom:1px dashed #ccc; margin-bottom:10px; width:100%; color:#06c;}
+#mylib_contenttag{
+   float:right;
+   width:690px;
+   background-color:#060;
+}
+#mylib_contenttag h2{
+   font-size:14px;
+   font-weight:bold;
+   padding:50px;
+}
+.mylib_con_con{
+   width:690px;
+   float:left;
+   padding-bottom:10px;
+}
+.iconerr{
+   position:relative;
+   top:-15px;
+   font-size:14px;
+   color:#F00;
+   width:300px;
+   padding-left:10px;
+}
+.linetop{
+   border-top:1px solid #ccc;
+}
+#dz{
+   float:left;
+   width:670px;
+   padding:0 0 20px 10px;
+   margin-bottom:10px;
+}
+#dz li{
+   float:left;
+   clear:both;
+   height:23px;
+}
+.dz2{
+   float:left;
+   width:680px;
+}
+.dz2 li{
+  float:left;
+   width:157px;
+   padding:5px 3px 0 10px;
+}
+.panleft{
+   padding:0 0 0 10px;
+}
+
+.pan_top{
+   padding-top:150px;
+}
+#button_tag{
+  width:96%;
+  padding:0 10px 0 10px;
+}
+#button_tag li{
+	float:left;
+	width:83px;
+	padding:5px;
+	text-align:center;
+	display:block;
+	font-weight:bold;
+	margin-right:5px;
+}
+#button_tag li a{
+	font-weight:bold;
+}
+#button_tag li a:hover{
+    color:#bababa;
+	font-weight:bold;
+}
+li#button_tagblue{
+	display:block;
+	background-color:#0074CC;
+}
+li#button_tagblue a{
+	color:#fff;
+	font-weight:bold;
+}
+li#utton_tagblue a:hover{
+    color:#fff;
+	font-weight:bold;
+}
+#mylib_content .blue{
+    color:#4585E1;
+}
+#mylib_content p{color:#333;}
+#mylib_content p a{ color:#F00;}
+.mylib_msg{background-color:#f7fdff; border:1px solid #d9f6fe; padding:5px; font-size:14px; margin:10px auto;}
+.mylib_msg strong{color:#06c; font-weight:bold;}
+.mylib_msg a{color:#333; padding:3px;}
+.mylib_msg a:hover{}
+.mylib_msg_jxjg{background-color:#baeffa; color:#fff;}
+.mylib_msg2{background-color:#f7fdff; border:1px solid #d9f6fe; padding:5px; font-size:14px; margin:10px auto;}
+#mylib_info{ background-color:#f7fdff; border:1px solid #d9f6fe; margin:10px auto; font-size:12px;}
+#mylib_info_img{float:left; width:180px; margin:5px; background-color:#fff; text-align:center;}
+#mylib_info_names{float:right; width:580px; text-align:left; padding:10px 0 0 0;  line-height:28px;}
+#mylib_info_names strong{ color:#F00;}
+
+.mylib_table_tbody{
+	border:1px solid #ccc;
+}
+.mylib_table_td{
+	border-bottom:1px solid #ccc;
+	background-color:#fff;
+}
