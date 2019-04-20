@@ -22,7 +22,7 @@ public class AdminDao {
 	 */
 	public boolean Login_verify(String username,String password){
 		Connection conn = DBUtil.getConnectDb();
-		String sql = "select * from admin where username="+username+" and password="+password;
+		String sql = "select * from admin where username='"+username+"' and password='"+password+"'";
 		PreparedStatement stm = null;
 		ResultSet rs = null;
 		try {
@@ -81,7 +81,7 @@ public class AdminDao {
 		// TODO Auto-generated method stub
 		AdminBean adminbean = new AdminBean();
 		Connection conn = DBUtil.getConnectDb();
-		String sql = "select * from admin where username="+username+" AND password="+password;
+		String sql = "select * from admin where username='"+username+"' and password='"+password+"'";
 		PreparedStatement stm = null;
 		ResultSet rs = null;
 		try {

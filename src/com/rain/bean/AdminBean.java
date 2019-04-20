@@ -1,6 +1,10 @@
 package com.rain.bean;
 
 public class AdminBean {
+	public AdminBean() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 用户的数据表的bean 
 	 */
