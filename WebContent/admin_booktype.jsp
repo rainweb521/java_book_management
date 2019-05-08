@@ -139,7 +139,7 @@ admin = admindao.get_AidInfo2(aid);
 	                                <td><%= bean.getName() %></td>
 	                               
 <td><button type="button" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#updateModal" 
-id="btn_update" onclick="showInfo2(<%= bean.getTid() %>,<%= bean.getName() %>)">修改</button>
+id="btn_update" onclick="showInfo2('<%= bean.getTid() %>','<%= bean.getName() %>')">修改</button>
 <button type="button" class="btn btn-danger btn-xs" onclick="deletebook(<%= bean.getTid() %>)">删除</button>
 	</td>                                            
                           	  </tbody>

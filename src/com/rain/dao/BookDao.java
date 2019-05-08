@@ -86,7 +86,7 @@ public class BookDao {
 	public ArrayList<HistoryBean> get_HistoryListInfo(int status,String aid){
 		ArrayList<HistoryBean> tag_Array = new ArrayList<HistoryBean>();
 		Connection conn = DBUtil.getConnectDb();
-		String sql = "select * from history where aid="+aid+" and status="+status;
+		String sql = "select * from history where aid='"+aid+"' and status='"+status+"'";
 		PreparedStatement stm = null;
 		ResultSet rs = null;
 		try {
@@ -122,7 +122,7 @@ public class BookDao {
 	public ArrayList<HistoryBean> get_HistoryListInfo2(int status){
 		ArrayList<HistoryBean> tag_Array = new ArrayList<HistoryBean>();
 		Connection conn = DBUtil.getConnectDb();
-		String sql = "select * from history where status="+status;
+		String sql = "select * from history where status='"+status+"'";
 		PreparedStatement stm = null;
 		ResultSet rs = null;
 		try {
@@ -158,7 +158,7 @@ public class BookDao {
 	public BookBean get_BookInfo(int bid){
 		BookBean tag = new BookBean();
 		Connection conn = DBUtil.getConnectDb();
-		String sql = "select * from book where bid="+bid;
+		String sql = "select * from book where bid='"+bid+"'";
 		PreparedStatement stm = null;
 		ResultSet rs = null;
 		try {

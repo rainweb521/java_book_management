@@ -151,8 +151,8 @@ admin = admindao.get_AidInfo2(aid);
 	                                <td><%= bean.getLend_num() %></td>
 	                                <td><%= bean.getMax_num() %></td>
 <td><button type="button" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#updateModal" 
-id="btn_update" onclick="showInfo2(<%= bean.getAid() %>,<%= bean.getUsername() %>,<%= bean.getName() %>,<%= bean.getEmail() %>
-,<%= bean.getPhone() %>,<%= bean.getPassword() %>,<%= bean.getLend_num() %>,<%= bean.getMax_num() %>)">修改</button>
+id="btn_update" onclick="showInfo2('<%= bean.getAid() %>','<%= bean.getUsername() %>','<%= bean.getName() %>','<%= bean.getEmail() %>'
+,'<%= bean.getPhone() %>','<%= bean.getPassword() %>','<%= bean.getLend_num() %>','<%= bean.getMax_num() %>')">修改</button>
 <button type="button" class="btn btn-danger btn-xs" onclick="deletebook(<%= bean.getAid() %>)">删除</button>
 	</td>                                            
                           	  </tbody>
